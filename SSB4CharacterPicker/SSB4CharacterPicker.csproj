@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76F45AAA-B169-4364-9A16-35C06B7DB733}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SSB4CharacterPicker</RootNamespace>
+    <AssemblyName>SSB4CharacterPicker</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\01 - uKN0Ucs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\02 - L3gQ8Ds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\03 - HnokP2J.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\04 - FyfnMwi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\05 - z7dIIyn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\06 - 1PoavSz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\07 - 26GZAyw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\08 - iaWp0cY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\09 - sq4bQrJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\10 - htnd5Ys.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\11 - YeEQGia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\12 - WvCVpe0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\13 - ul0FELN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\14 - wwBjc8K.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\15 - psXSiPB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\16 - h66QhrT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\17 - OuQyuKm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\18 - 7fX62IH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\19 - StluFFz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\20 - Hbx0y5a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\21 - 0qjdkv1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\22 - dWMno50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\23 - 5nbaFv5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\24 - BqEjEEe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\25 - koR4DqK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\26 - W1Q7Rgz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\27 - DdRcLgW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\28 - yKBRyOF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\29 - QU9OaUj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\30 - img4jOD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\31 - ONEyT5X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\32 - gjlAqeJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\33 - 2fOQiJK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\34 - 9goMNrR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\35 - VVZiJcF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\36 - vvfF2N8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\37 - ydw72oB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\38 - Y7HhNop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\39 - NIqGDx0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\40 - 0VDgcBl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\41 - AvDnLMN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\42 - 2wvjUTv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\43 - 8m2jVLn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\44 - 6mQUCEL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\45 - odI7W4d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\46 - YgjTGsf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\47 - J2GIMRu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\48 - Fv4rZGd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\49 - 3hMSFUD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\50 - ZHKAL4q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\51 - OrctH0d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\52 - XhHUte8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\53 - Du10FBb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\54 - GEFZwyO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\55 - kXMwdsK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\56 - uSENa73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\57 - cu9vGcf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\58 - EBAMsX9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_21___0qjdkv1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_22___dWMno50.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\48 - Fv4rZGd1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
